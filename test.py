@@ -2,6 +2,7 @@ from main import mlops
 
 mlopsObj = mlops(5)
 
+print("Testing main.py")
 def test_gettotalstudents(): assert mlopsObj.gettotalstudents() == 5
 
 def test_Addstudent(): 

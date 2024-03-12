@@ -5,7 +5,9 @@ class mlops:
     def gettotalstudents(self): 
         return self.totalstudents
     
-    def Addstudent(self): self.totalstudents = self.totalstudents + 1
+    def Addstudent(self): 
+        self.totalstudents = self.totalstudents + 1
+        
     
     def removestudent(self): self.totalstudents = self.totalstudents - 1
     
